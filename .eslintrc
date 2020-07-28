@@ -1,0 +1,9 @@
+{
+  "extends": ["eslint-config-standard", "eslint-config-prettier", "eslint-config-prettier/standard", "plugin:jest/recommended"],
+  "parser": "babel-eslint",
+  "plugins": ["prettier", "jest"],
+  "rules": {
+    "prettier/prettier": "error",
+    "import/newline-after-import": ["error", { "count": 1 }]
+  }
+}
